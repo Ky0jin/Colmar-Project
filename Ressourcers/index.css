@@ -1,0 +1,15 @@
+.title {
+    border: 4rem solid white;
+}
+
+.title h1 {
+    position: relative;
+    font-size: 2rem;
+    left: 1.5rem;
+}
+
+.title h2 {
+    position: relative;
+    text-align: right;
+    right:1.5rem; 
+}
