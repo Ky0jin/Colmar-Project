@@ -1,8 +1,15 @@
+    /* header part */
+
+body {
+    position: relative;
+    bottom: 3rem; 
+}
 
 .title h1 {
     position: relative;
     font-size: 2rem;
     left: 1.5rem;
+    top: 3rem;
 }
 
 .title h2 {
@@ -11,12 +18,15 @@
     right:1.5rem; 
 }
 
-spam {
+.title spam {
     color: black;
 }
 
 header {
-    border: 32px solid gray;
+    background-color: lightgrey;
+    border: 32px solid lightgrey;
+    height: 40rem;
+    font-family: arial;
 }
 
 header img {
@@ -27,7 +37,53 @@ header h1 {
     position: relative;
     text-align: right;
     bottom: 35rem;
-    right: 9rem;
-    text-decoration: black;
-    font-weight: bold;
+    right: 5rem;
+    color: rgb(54,54,54);
+    font-size: 3.5rem;
+    font-weight: 700;
 }
+
+header p {
+    position: relative;
+    text-align: right;
+    bottom: 36rem;
+    right: 6.5rem;
+    font-size: 2rem;
+    color: rgb(54,54,54);
+    font-weight: 600;
+}
+
+.box-header {
+    position: relative;
+    text-align: right;
+    bottom: 35rem;
+    left: 57rem;
+    width: 26rem;
+    height: 3.5rem;
+    background-color: rgb(54,54,54);
+}
+.box-header h2 {
+    text-align: center;
+    position: relative;
+    top: 0.8rem;
+}
+
+.box-header a {
+    color: white;
+}
+
+header h1 spam {
+    position: relative;
+    right: 5rem;
+}
+
+p spam {
+    position: relative;
+    right: 1rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/* end of header part */
