@@ -31,6 +31,7 @@ header {
 
 header img {
     width: 60%;
+    height: 95%;
 }
 
 header h1 {
@@ -57,7 +58,7 @@ header p {
     position: relative;
     text-align: right;
     bottom: 35rem;
-    left: 57rem;
+    left: 67rem;
     width: 26rem;
     height: 3.5rem;
     background-color: rgb(54,54,54);
@@ -87,3 +88,44 @@ header a {
 }
 
 /* end of header part */
+
+/* middle part*/
+.mid {
+    border: 3px solid red;
+    height: 50rem;
+    width: 104rem;
+    display: flex;
+   justify-content: space-around;
+   position: relative;
+   top: 3rem; 
+}
+
+.box img {
+    width: 50.5rem;
+    
+}
+
+.mid-box1 img, .mid-box2 img, .mid-box3 img {
+    width: 10.5rem;
+}
+
+.mid-box3 {
+    display: inline-flex;
+    margin: 10px -32px;
+    width: 115%;
+    height: auto;
+    background-color: gray;
+    
+}
+
+.mid-box1, .mid-box2 {
+    width: 90%;
+    display: inline-flex;
+    margin: 10px -32px;
+}
+
+.boxes {
+    height: 50rem;
+    width: 44.5rem;
+    flex-direction: column;
+}
