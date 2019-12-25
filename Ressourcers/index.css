@@ -3,6 +3,7 @@
 body {
     position: relative;
     bottom: 3rem; 
+    font-family: arial;
 }
 
 .title h1 {
@@ -98,34 +99,77 @@ header a {
    justify-content: space-around;
    position: relative;
    top: 3rem; 
+   overflow: hidden;
 }
 
 .box img {
-    width: 50.5rem;
+    width: 65.5rem;
     
 }
 
 .mid-box1 img, .mid-box2 img, .mid-box3 img {
     width: 10.5rem;
+    height: 11rem;
 }
 
 .mid-box3 {
     display: inline-flex;
-    margin: 10px -32px;
+    margin: 1rem -2rem;
     width: 115%;
     height: auto;
     background-color: gray;
-    
+    border: solid gray 15px;
 }
 
 .mid-box1, .mid-box2 {
     width: 90%;
     display: inline-flex;
-    margin: 10px -32px;
+    margin: 1rem -2rem;
+    
 }
 
 .boxes {
+    position: relative;
+    left: 5rem;
     height: 50rem;
-    width: 44.5rem;
+    width: 45.5rem;
     flex-direction: column;
+}
+
+.mid-box3 p {
+    position: relative;
+    top: 2rem;
+    right: 10rem;
+    font-size: 1.1REM;;
+}
+
+.mid-box3 h3 {
+    position: relative;
+    left: 1rem;
+    font-weight: 800;
+}
+
+.mid-box3 a {
+    position: relative;
+    top: 6rem;
+    right: 26rem;
+}
+
+.mid-box2 p {
+    position: relative;
+    top: 2rem;
+    right: 4rem;
+    font-size: 1.1REM;;
+}
+
+.mid-box2 h3 {
+    position: relative;
+    left: 1rem;
+    font-weight: 800;
+}
+
+.mid-box2 a {
+    position: relative;
+    top: 6rem;
+    right: 15rem;
 }
