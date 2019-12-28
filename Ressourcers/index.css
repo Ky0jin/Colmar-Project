@@ -211,14 +211,13 @@ header a {
 
 .start-learning {
     position: relative;
-    top:4rem;
     border: black solid 5px;
     display: flex;
     justify-content: space-around;
     background-color: gray;
     flex-wrap: wrap;
     width: 104rem;
-    height: 80rem;
+    height: 75rem;
 }
 
 .start-box1, .start-box2, .start-box3, .start-box4, .start-box5, .start-box6 {
@@ -232,4 +231,13 @@ header a {
 .start-box1, .start-box2, .start-box3 {
     position: relative;
     top: 15rem;
+}
+
+.starth {
+    font-size: 3rem;
+    font-weight: 800;
+    position: relative;
+    top: 11rem;
+    z-index: 10;
+    text-align: center;
 }
