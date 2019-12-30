@@ -241,3 +241,68 @@ header a {
     z-index: 10;
     text-align: center;
 }
+
+/* end of data part*/
+
+footer {
+    display: flex;
+    border: solid red 2px;
+    width: 104rem;
+    height: 60rem;
+    
+}
+
+.boxx {
+    border: blanchedalmond solid 1px;
+    left: 15rem;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    top: 10rem;
+    position: relative;
+
+}
+
+footer img {
+    width: 25%;
+}
+
+video {
+    width: 140%;
+    height: 80%;
+}
+
+.footer-box1 {
+    border: blue solid 1px;
+    width: 110%;
+    position: relative;
+    top: 8rem;
+    right: 4rem;
+    height: 70%;
+}
+
+footer h1 {
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    left: 52rem;
+}
+
+.boxx p, .boxx h2 {
+    position: relative;
+    left: 30%;
+    bottom: 11rem;
+
+}
+
+.footer-box3 {
+    position: relative;
+    bottom: 4rem;
+
+} 
+
+.copyright {
+    position: relative;
+    right: 90%;
+    top: 90%;
+}
