@@ -271,7 +271,6 @@ footer {
     display: flex;
     width: 104rem;
     height: 60rem;
-    border: orange 1px solid;
     overflow: hidden;
 }
 
